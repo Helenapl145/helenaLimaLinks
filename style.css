@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --color-primary: #893ff0;
+    --color-bg: #C6A6F2;
+    --color-hover: #2e0c5e;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+
+.wraper{
+    background-color: var(--color-bg);
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 10rem;
+    
+   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header img.avatar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    border: 3px solid #2e0c5e;
+    
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+section ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2rem;
+    
+
+    margin-bottom: 2rem;
+    
+}
+
+
+
+section ul li button{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 150%;
+        
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    background-color: var(--color-primary);
+  
+    width: 300px;
+    height: 53px;
+    padding: 1rem 7rem;
+
+    border: none;
+    border-radius: 0.5rem;
+   
+    transition: background 400ms;
+}
+
+button:hover{
+    background-color: var(--color-hover);
+}
+
+section ul li button a{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+section ul li button a img{
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    font-weight: 400;
+    font-size: 0.6rem;
+    color: rgba(122, 121, 121, 0.925);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--color-hover);
+
+}
+
