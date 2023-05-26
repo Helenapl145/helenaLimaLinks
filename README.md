@@ -4,4 +4,4 @@ Projeto feito a partir de aulas da Rockseat, usando como tecnologias o CSS e HTM
 PROJETO FINAL 
 ![image](https://github.com/Helenapl145/helenaLimaLinks/assets/71864098/157f6448-c219-464c-a526-661b8b88ea45)
 
-Acesse o link:
+Acesse o link: https://helenapl145.github.io/helenaLimaLinks/
